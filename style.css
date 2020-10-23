@@ -194,8 +194,8 @@ p {
   align-items: center;
   z-index: 100;
   position: fixed;
-  right: 25px;
-  top: 30px;
+  right:30px;
+  top: 20px;
 }
 
 .theme-switch-wrapper span {
@@ -262,4 +262,46 @@ input:checked + .slider::before {
 .fas {
   font-size: 30px;
   margin-right: 5px;
+}
+
+
+/*  Media Queries */
+
+@media (max-width:420px) {
+  nav {
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 10px;
+  }
+  .theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+    right:28px;
+    top: 30px;
+  }
+  h1{
+    font-size: 50px;
+  }
+  h2{
+    font-size: 15px;
+  }
+  .image-container {
+    padding: 1px;
+    margin-right: 14px;
+    width: 100px;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+.fab {
+  font-size: 65px;
+  margin: 10px;
+}
+button {
+  margin: 10px;
+}
+
 }
